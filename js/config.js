@@ -40,9 +40,6 @@ class Config {
 			'w/': {
 				urlPrefix: 'https://wikipedia.org/wiki/'
 			},
-			'u/': {
-				urlPrefix: 'https://unsplash.com/s/photos/'
-			},
 			'a/': {
 				urlPrefix: 'https://amazon.com/s?k='
 			},
@@ -51,9 +48,6 @@ class Config {
 			},
 			'y/': {
 				urlPrefix: 'https://youtube.com/results?search_query='
-			},
-			'n/': {
-				urlPrefix: 'https://nhentai.net/g/'
 			},
 			'g/': {
 				urlPrefix: 'https://github.com/search?q='
@@ -414,6 +408,11 @@ class Config {
 				site: 'Gmail',
 				icon: 'gmail',
 				url: 'https://mail.google.com/'
+			},
+			{
+				site: 'Classroom',
+				icon: 'classroom',
+				url: 'https://classroom.google.com'
 			},
 			{
 				site: 'Youtube',
